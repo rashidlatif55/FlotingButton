@@ -13,6 +13,9 @@
 		5C3991A121EA7F2400285FB5 /* FlotingButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C39919F21EA7F2400285FB5 /* FlotingButton.xcdatamodeld */; };
 		5C3991A321EA7F2600285FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3991A221EA7F2600285FB5 /* Assets.xcassets */; };
 		5C3991A621EA7F2600285FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3991A421EA7F2600285FB5 /* LaunchScreen.storyboard */; };
+		5C3991AE21EA818F00285FB5 /* FlotingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3991AD21EA818F00285FB5 /* FlotingButton.swift */; };
+		5C3991B021EA81C800285FB5 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3991AF21EA81C800285FB5 /* UIButtonX.swift */; };
+		5C96E0D721EA87C6008C35C5 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C96E0D621EA87C6008C35C5 /* UIViewX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5C3991A221EA7F2600285FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3991A521EA7F2600285FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3991A721EA7F2600285FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3991AD21EA818F00285FB5 /* FlotingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlotingButton.swift; sourceTree = "<group>"; };
+		5C3991AF21EA81C800285FB5 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		5C96E0D621EA87C6008C35C5 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				5C39919A21EA7F2400285FB5 /* ViewController.swift */,
 				5C39919C21EA7F2400285FB5 /* Main.storyboard */,
 				5C3991A221EA7F2600285FB5 /* Assets.xcassets */,
+				5C3991AD21EA818F00285FB5 /* FlotingButton.swift */,
+				5C96E0D621EA87C6008C35C5 /* UIViewX.swift */,
+				5C3991AF21EA81C800285FB5 /* UIButtonX.swift */,
 				5C3991A421EA7F2600285FB5 /* LaunchScreen.storyboard */,
 				5C3991A721EA7F2600285FB5 /* Info.plist */,
 				5C39919F21EA7F2400285FB5 /* FlotingButton.xcdatamodeld */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C39919B21EA7F2400285FB5 /* ViewController.swift in Sources */,
+				5C3991B021EA81C800285FB5 /* UIButtonX.swift in Sources */,
+				5C3991AE21EA818F00285FB5 /* FlotingButton.swift in Sources */,
 				5C3991A121EA7F2400285FB5 /* FlotingButton.xcdatamodeld in Sources */,
 				5C39919921EA7F2400285FB5 /* AppDelegate.swift in Sources */,
+				5C96E0D721EA87C6008C35C5 /* UIViewX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B89RVC8L4R;
 				INFOPLIST_FILE = FlotingButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B89RVC8L4R;
 				INFOPLIST_FILE = FlotingButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
